@@ -1,0 +1,10 @@
+prototype(Networkteam.Neos.Util:ImageUriAndDimensions) {
+  @class = 'NEOSidekick\\ContentApiAssetAiLabeling\\FusionObjects\\AiClassifiedImageUriAndDimensionsImplementation'
+}
+
+prototype(Networkteam.Neos.ContentApi:Properties) {
+  assetRenderer {
+    aiClassification = ${AiClassification.fromAsset(asset)}
+    digitalSourceType = ${AiClassification.schemaOrgDigitalSourceType(asset)}
+  }
+}

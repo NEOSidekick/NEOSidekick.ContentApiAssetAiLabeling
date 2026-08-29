@@ -1,0 +1,23 @@
+{
+    "name": "neosidekick/content-api-asset-ai-labeling",
+    "description": "Adds AI asset classifications to Networkteam Neos Content API output",
+    "type": "neos-package",
+    "license": "proprietary",
+    "require": {
+        "php": "~8.3.0",
+        "neos/neos": "~8.4",
+        "neosidekick/media-ui-asset-ai-labeling": "dev-main || dev-feature-publish-ai-labeling-packages",
+        "networkteam/neos-contentapi": "^0.8.0",
+        "networkteam/neos-util": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "NEOSidekick\\ContentApiAssetAiLabeling\\": "Classes"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "NEOSidekick.ContentApiAssetAiLabeling"
+        }
+    }
+}
