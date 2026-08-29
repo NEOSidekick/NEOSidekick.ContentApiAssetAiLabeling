@@ -2,7 +2,7 @@
     "name": "neosidekick/content-api-asset-ai-labeling",
     "description": "Adds AI asset classifications to Networkteam Neos Content API output",
     "type": "neos-package",
-    "license": "proprietary",
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "~8.3.0",
         "neos/neos": "~8.4",
