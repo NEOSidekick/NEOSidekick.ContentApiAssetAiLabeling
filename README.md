@@ -63,7 +63,7 @@ export function ClassifiedImage({ image, alternativeText }) {
 ## Requirements
 
 - Neos 8.4
-- `neosidekick/media-ui-asset-ai-labeling` `dev-main`
+- `neosidekick/media-ui-asset-ai-labeling` 0.1.x
 - `networkteam/neos-contentapi` 0.8.x
 - `networkteam/neos-util` 8.1+
 - PHP 8.3

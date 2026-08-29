@@ -6,7 +6,7 @@
     "require": {
         "php": "~8.3.0",
         "neos/neos": "~8.4",
-        "neosidekick/media-ui-asset-ai-labeling": "dev-main || dev-feature-publish-ai-labeling-packages",
+        "neosidekick/media-ui-asset-ai-labeling": "^0.1.0",
         "networkteam/neos-contentapi": "^0.8.0",
         "networkteam/neos-util": "^8.1"
     },
